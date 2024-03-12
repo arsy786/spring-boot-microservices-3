@@ -28,6 +28,7 @@ This project provides a sample implementation of microservices using Spring Boot
 - **Config Service**: Provides centralized configuration management for microservices. It uses Spring Cloud Config Server to serve configuration properties stored in a Git repository.
 - **API Gateway (Zuul Gateway)**: Acts as the entry point for client requests, offering routing, filtering, and load balancing. It uses Netflix Zuul Gateway for request routing and filtering.
 - **Employee & Deportment Microservices**: Microservices that provide specific functionalities and communicate through the API Gateway.
+- **Distributed Tracing (Zipkin)**: Visualizes trace data between and within services. Allows us to correlate activity between servers and get a much clearer picture of exactly what is happening in our services.
 
 ## Features
 
