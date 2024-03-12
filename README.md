@@ -122,4 +122,4 @@ http://localhost:8082/swagger-ui/index.html
 - **Discovery Service (Eureka Server)**: Manages service discovery and registration. It uses Netflix Eureka Server to register microservices and facilitate inter-service communication.
 - **Config Service**: Provides centralized configuration management for microservices. It uses Spring Cloud Config Server to serve configuration properties stored in a Git repository.
 - **API Gateway (Zuul Gateway)**: Acts as the entry point for client requests, offering routing, filtering, and load balancing. It uses Netflix Zuul Gateway for request routing and filtering.
-- **Microservice Employee & Deportment**: Microservices that provide specific functionalities and communicate through the API Gateway.
+- **Employee & Deportment Microservices**: Microservices that provide specific functionalities and communicate through the API Gateway.
