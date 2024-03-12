@@ -17,13 +17,17 @@ This project was created by following the tutorial: [Microservices using SpringB
     - [Running Zipkin for Distributed Tracing](#running-zipkin-for-distributed-tracing)
     - [Note](#note)
     - [Interacting with the Microservices \& API's](#interacting-with-the-microservices--apis)
-  - [Microservices Overview](#microservices-overview)
 
 ## Overview
 
 This project provides a sample implementation of microservices using Spring Boot and Spring Cloud. It showcases the usage of various Spring Cloud components to build a distributed system. The project includes multiple microservices that communicate with each other through RESTful APIs. Below is the microservices architecture diagram.
 
 ![microservices architecture diagram](microservices-architechture.png)
+
+- **Discovery Service (Eureka Server)**: Manages service discovery and registration. It uses Netflix Eureka Server to register microservices and facilitate inter-service communication.
+- **Config Service**: Provides centralized configuration management for microservices. It uses Spring Cloud Config Server to serve configuration properties stored in a Git repository.
+- **API Gateway (Zuul Gateway)**: Acts as the entry point for client requests, offering routing, filtering, and load balancing. It uses Netflix Zuul Gateway for request routing and filtering.
+- **Employee & Deportment Microservices**: Microservices that provide specific functionalities and communicate through the API Gateway.
 
 ## Features
 
@@ -116,10 +120,3 @@ http://localhost:8081/swagger-ui/index.html
 # employee-service
 http://localhost:8082/swagger-ui/index.html
 ```
-
-## Microservices Overview
-
-- **Discovery Service (Eureka Server)**: Manages service discovery and registration. It uses Netflix Eureka Server to register microservices and facilitate inter-service communication.
-- **Config Service**: Provides centralized configuration management for microservices. It uses Spring Cloud Config Server to serve configuration properties stored in a Git repository.
-- **API Gateway (Zuul Gateway)**: Acts as the entry point for client requests, offering routing, filtering, and load balancing. It uses Netflix Zuul Gateway for request routing and filtering.
-- **Employee & Deportment Microservices**: Microservices that provide specific functionalities and communicate through the API Gateway.
