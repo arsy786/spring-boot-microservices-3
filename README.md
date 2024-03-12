@@ -16,7 +16,7 @@ This project was created by following the tutorial: [Microservices using SpringB
     - [Running Services](#running-services)
     - [Running Zipkin for Distributed Tracing](#running-zipkin-for-distributed-tracing)
     - [Note](#note)
-    - [Interacting with the Microservices \& API's](#interacting-with-the-microservices--apis)
+    - [Using the API](#using-the-api)
 
 ## Overview
 
@@ -106,13 +106,17 @@ To enable distributed tracing in your microservices architecture, you can use Zi
 
 Ensure that the Discovery Service (Eureka Server), Config Service, API Gateway, and Zipkin are running before starting individual microservices to ensure proper service registration, configuration, routing, and tracing, respectively.
 
-### Interacting with the Microservices & API's
+### Using the API
 
 Once all microservices are up and running, you can interact with them through the API Gateway. The API documentation and endpoints can be accessed via the API Gateway URL.
 
-The REST API is documented with Swagger.
+```bash
+# api-gateway
+http://localhost:8060/employee
+http://localhost:8060/department
+```
 
-After starting the application, access the Swagger UI to interact with the API at:
+The REST API is documented with Swagger. After starting the application, access the Swagger UI to interact with the API at:
 
 ```bash
 # department-service
