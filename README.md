@@ -46,8 +46,9 @@ This project provides a sample implementation of microservices using Spring Boot
 
 To run this project locally, you need to have the following prerequisites installed:
 
-- Java Development Kit (JDK) 8 or higher
-- Apache Maven
+- Git
+- Java 17
+- Maven
 - Docker (optional, for running with containers)
 
 ### Cloning the Repository
