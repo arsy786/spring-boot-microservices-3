@@ -1,4 +1,4 @@
-# Microservices Spring Boot Project
+# Spring Boot Microservices (v3)
 
 > ✅ **Part of the [Spring Boot Roadmap](https://github.com/arsy786/spring-boot-roadmap)** — a curated masterclass covering everything from Java basics to advanced Spring Boot practices and projects.
 
