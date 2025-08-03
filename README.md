@@ -1,5 +1,11 @@
 # Microservices Spring Boot Project
 
+> ✅ **Part of the [Spring Boot Roadmap](https://github.com/arsy786/spring-boot-roadmap)** — a curated masterclass covering everything from Java basics to advanced Spring Boot practices and projects.
+
+It is one of several interconnected repositories making up the broader [Spring Boot Roadmap](https://github.com/arsy786/spring-boot-roadmap), which provides a complete learning journey.
+
+---
+
 This is a Java Spring Boot project that demonstrates the implementation of microservices architecture using Spring Boot 3.
 
 This project was created by following the tutorial: [Microservices using SpringBoot 3.0 (YouTube/DailyCodeBuffer)](https://www.youtube.com/watch?v=HFl2dzhVuUo&ab_channel=DailyCodeBuffer)
